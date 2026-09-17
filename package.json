@@ -1,0 +1,35 @@
+{
+  "name": "module-8-shopstate-ecommerce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "check": "node scripts/check-project.mjs"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "react-router-dom": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@vitejs/plugin-react": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "jsdom": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
